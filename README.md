@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=Gowtham%20M&fontSize=65&fontColor=fff&animation=fadeIn&fontAlignY=45&desc=Software%20Engineer%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Data%20Scientist&descAlignY=68&descSize=19&descColor=c4b5fd&reversal=false"/>
+<img width="100%" src="https://svg-banners.vercel.app/api?type=origin&text1=Gowtham%20M%20🤖&text2=Software%20Engineer%20·%20AI%20Engineer%20·%20Data%20Scientist&width=1200&height=200"/>
 
 <div align="center">
 
@@ -595,12 +595,12 @@ RAGAS eval score > 0.8
 <tr>
 <td align="center" width="50%">
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api?username=gowthammayakannan&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true&rank_icon=percentile&custom_title=Gowtham's+GitHub+Stats"/>
+<img width="100%" src="https://github-stats.vercel.app/api?username=gowthammayakannan&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true&rank_icon=percentile&custom_title=Gowtham's+GitHub+Stats"/>
 
 </td>
 <td align="center" width="50%">
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gowthammayakannan&layout=donut&theme=midnight-purple&hide_border=true&langs_count=8&hide=html,css&custom_title=Most+Used+Languages"/>
+<img width="100%" src="https://github-stats.vercel.app/api/top-langs/?username=gowthammayakannan&layout=donut&theme=midnight-purple&hide_border=true&langs_count=8&hide=html,css&custom_title=Most+Used+Languages"/>
 
 </td>
 </tr>
