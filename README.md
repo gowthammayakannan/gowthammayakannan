@@ -593,19 +593,14 @@ RAGAS eval score > 0.8
 
 <table>
 <tr>
-<td align="center" width="50%">
+<td align="center" width="100%">
 
-<img width="100%" src="https://github-stats.vercel.app/api?username=gowthammayakannan&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true&rank_icon=percentile&custom_title=Gowtham's+GitHub+Stats"/>
-
-</td>
-<td align="center" width="50%">
-
-<img width="100%" src="https://github-stats.vercel.app/api/top-langs/?username=gowthammayakannan&layout=donut&theme=midnight-purple&hide_border=true&langs_count=8&hide=html,css&custom_title=Most+Used+Languages"/>
+<img width="80%" src="https://github-readme-stats.vercel.app/api?username=gowthammayakannan&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true&rank_icon=percentile&custom_title=Gowtham's+GitHub+Stats"/>
 
 </td>
 </tr>
 <tr>
-<td colspan="2" align="center">
+<td colspan="1" align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=gowthammayakannan&theme=midnight-purple&hide_border=true&date_format=j%20M%5B%20Y%5D&ring=a5b4fc&fire=a5b4fc&currStreakLabel=a5b4fc&sideLabels=a5b4fc&currStreakNum=ffffff&sideNums=ffffff)](https://git.io/streak-stats)
 
@@ -631,15 +626,22 @@ RAGAS eval score > 0.8
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=gowthammayakannan&bg_color=0d1117&color=a5b4fc&line=6366f1&point=ffffff&area=true&area_color=6366f1&hide_border=true&custom_title=Contribution+Activity+—+Last+12+Months)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<img width="100%" src="https://ghchart.odyssey3.dev/a5b4fc/gowthammayakannan" alt="Gowtham's GitHub Contribution Chart"/>
 
 </div>
 
 <div align="center">
 
-### 🏆 Trophy Wall
+### 🏆 Achievements
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=gowthammayakannan&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+```
+  ⭐  Total Stars Earned      →  Growing with every project
+  🔀  Total PRs               →  3 pull requests merged
+  💬  Total Commits           →  59 commits · 2023 → Present
+  👥  Contributed to          →  2 repositories
+  🔥  Current Streak          →  Active · Oct 2026
+  📅  GitHub Since            →  Jul 2023
+```
 
 </div>
 
