@@ -591,57 +591,46 @@ RAGAS eval score > 0.8
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="100%">
+<a href="https://github.com/gowthammayakannan">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gowthammayakannan&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true" />
+</a>
 
-<img width="80%" src="https://github-readme-stats.vercel.app/api?username=gowthammayakannan&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true&include_all_commits=true&rank_icon=percentile&custom_title=Gowtham's+GitHub+Stats"/>
-
-</td>
-</tr>
-<tr>
-<td colspan="1" align="center">
+<br/><br/>
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=gowthammayakannan&theme=midnight-purple&hide_border=true&date_format=j%20M%5B%20Y%5D&ring=a5b4fc&fire=a5b4fc&currStreakLabel=a5b4fc&sideLabels=a5b4fc&currStreakNum=ffffff&sideNums=ffffff)](https://git.io/streak-stats)
 
-</td>
-</tr>
-</table>
-
 </div>
+
+<br/>
 
 <div align="center">
 
 ```
 📌 What these stats say about me
 ──────────────────────────────────────────────────────────────
-  🐍 Python dominant   →  AI-first developer, not just web
-  📅 Contribution graph →  Building consistently, not in bursts
-  🔢 Commit history    →  Every project pushed, not just local
-  🏆 Rank percentile   →  Measured against GitHub's global base
+  🐍 Python dominant    →  AI-first developer, not just web
+  � 59+ commits        →  Every project pushed, not just local
+  🔥 Active streak      →  Building consistently, not in bursts
+  🏆 Rank percentile    →  Measured against GitHub's global base
 ──────────────────────────────────────────────────────────────
 ```
 
 </div>
 
-<div align="center">
-
-<img width="100%" src="https://ghchart.odyssey3.dev/a5b4fc/gowthammayakannan" alt="Gowtham's GitHub Contribution Chart"/>
-
-</div>
+<br/>
 
 <div align="center">
 
-### 🏆 Achievements
+### 🏅 Profile Highlights
 
-```
-  ⭐  Total Stars Earned      →  Growing with every project
-  🔀  Total PRs               →  3 pull requests merged
-  💬  Total Commits           →  59 commits · 2023 → Present
-  👥  Contributed to          →  2 repositories
-  🔥  Current Streak          →  Active · Oct 2026
-  📅  GitHub Since            →  Jul 2023
-```
+| Metric | Value |
+|:-------|:------|
+| 💻 Total Commits | 59+ (Jul 2023 → Present) |
+| 🔀 Pull Requests | 3 merged |
+| � Repositories Contributed | 2 |
+| 🔥 Longest Streak | 3 days (Jun 2025) |
+| 📅 GitHub Member Since | July 2021 |
+| 🌐 Public Repos | Growing |
 
 </div>
 
