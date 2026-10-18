@@ -634,6 +634,20 @@ RAGAS eval score > 0.8
 
 </div>
 
+<br/>
+
+<div align="center">
+
+### 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gowthammayakannan/gowthammayakannan/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gowthammayakannan/gowthammayakannan/output/github-contribution-grid-snake.svg"/>
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/gowthammayakannan/gowthammayakannan/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+</div>
+
 ---
 
 ## 💻 Competitive Programming & Certifications
