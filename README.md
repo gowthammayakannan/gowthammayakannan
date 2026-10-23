@@ -19,8 +19,8 @@
 ║  > location   : Bengaluru, India 🇮🇳                        ║
 ║  > status     : 🟢 Open to Work                             ║
 ║  > current    : Lytx · AI Data Quality · Feb 2026           ║
-║  > building   : RAG Pipeline + LLM Agent                    ║
-║  > stack      : Python · React · FastAPI · OpenAI           ║
+║  > shipped    : Lexra — Live RAG Pipeline 🚀                ║
+║  > stack      : Python · React · FastAPI · Groq             ║
 ║                                                              ║
 ║  $ ./run --goal                                              ║
 ║  > Land AI/ML or SDE role in Bengaluru 🎯                   ║
@@ -33,7 +33,7 @@
 
 <div align="center">
 
-![](https://img.shields.io/badge/🧪_ML_Projects-3-a5b4fc?style=for-the-badge&labelColor=1e1b4b)
+![](https://img.shields.io/badge/🧪_AI_Projects-4-a5b4fc?style=for-the-badge&labelColor=1e1b4b)
 &nbsp;
 ![](https://img.shields.io/badge/📊_Best_Recall-98%25-a5b4fc?style=for-the-badge&labelColor=1e1b4b)
 &nbsp;
@@ -95,10 +95,9 @@
        │
 2026 ──┼── Associate @ Lytx · Bengaluru
        │   AI Data Quality · Fleet Safety ML
-       │   TeamLease Services
        │
-now ───┴── 🎯 Targeting AI/SDE/DS Roles
-           Building RAG Pipeline · LLM Agent
+2026 ──┴── 🚀 Shipped Lexra — Live RAG Pipeline
+           lexra.onrender.com · Groq + ChromaDB
 ```
 
 </td>
@@ -121,7 +120,7 @@ value = {
     "RAG + hybrid vector search",
     "Prompt engineering & chaining",
     "Autonomous agent design",
-    "LangChain · ChromaDB · OpenAI"
+    "Groq · ChromaDB · OpenAI"
   ],
 
   "data_scientist": [
@@ -132,7 +131,7 @@ value = {
     "Safety-critical model design"
   ],
 
-  "mindset": "Build → measure → iterate 🔁"
+  "mindset": "Build → ship → iterate 🔁"
 }
 ```
 
@@ -162,6 +161,99 @@ value = {
 
 ---
 
+### 🔍 Lexra — Enterprise Legal Document Intelligence *(Live)*
+
+[![Repo](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gowthammayakannan/Lexra)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-🟢_Online-22c55e?style=for-the-badge&labelColor=14532d)](https://lexra-mg3e4579l-gowthams-projects-2d279628.vercel.app)
+![Complexity](https://img.shields.io/badge/Complexity-⚡⚡_Very_High-a5b4fc?style=for-the-badge&labelColor=1e1b4b)
+![Type](https://img.shields.io/badge/Type-AI_+_Full_Stack-6366f1?style=for-the-badge&labelColor=1e1b4b)
+
+<table>
+<tr>
+<td width="30%" valign="top">
+
+**🔴 Problem**
+```
+Law firms have 1000s
+of case documents.
+Lawyers waste hours
+searching manually.
+
+Simple keyword search
+misses meaning. LLMs
+alone hallucinate
+without grounding.
+```
+
+**🟢 Solution**
+```
+Hybrid RAG system:
+· Semantic search
+  (dense embeddings)
+· BM25 keyword search
+· RRF reranking
+· Groq AI answers
+· Google OAuth
+· Multi-tenant
+```
+
+**🏆 Result**
+```
+✅ Live in production
+< 2s query response
+JWT + Google Auth
+Deployed: Vercel +
+Render
+```
+
+</td>
+<td width="70%" valign="top">
+
+**🏗️ Architecture**
+```
+  ┌─────────────────────────────────────────┐
+  │            INGESTION PIPELINE            │
+  │  PDF → PyMuPDF → Chunks → Embeddings    │
+  │              ↓           ↓              │
+  │         ChromaDB      BM25 Index        │
+  └─────────────────────────────────────────┘
+                    │
+  ┌─────────────────▼───────────────────────┐
+  │             QUERY PIPELINE               │
+  │  User Query (any language)               │
+  │      ├──► Dense Search (ChromaDB)        │
+  │      └──► Sparse Search (BM25)           │
+  │                  │                       │
+  │      ┌───────────▼──────────┐            │
+  │      │  RRF Reranker        │            │
+  │      └───────────┬──────────┘            │
+  │                  ▼                       │
+  │         Groq (Qwen 3.8B)                 │
+  │         Grounded generation              │
+  │                  ▼                       │
+  │     Answer + Source Citations            │
+  └─────────────────────────────────────────┘
+```
+
+**⚡ Why this is hard**
+> Pure semantic search fails on exact legal terms. Pure BM25 misses paraphrased queries. Fusing both with RRF reranking, multi-tenant isolation, Google OAuth, and chat history persistence — that's production-grade AI engineering.
+
+**🛠️ Stack**
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](.)
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](.)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square)](.)
+[![Groq](https://img.shields.io/badge/Groq_AI-F55036?style=flat-square)](.)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](.)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](.)
+
+</td>
+</tr>
+</table>
+
+---
+
 ### 🤖 JobHunter — Autonomous AI Job Application Agent
 
 [![Repo](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gowthammayakannan/Job-Hunter)
@@ -180,20 +272,16 @@ Job hunting is repetitive:
 · Fill forms
 · Submit
 · Repeat 50x
-
-Manual = hours wasted
-per application
 ```
 
 **🟢 Solution**
 ```
-Autonomous agent that:
+Autonomous agent:
 · Scrapes listings
 · Analyzes JD with LLM
 · Tailors resume via
   prompt chaining
-· Auto-submits via
-  browser automation
+· Auto-submits
 ```
 
 **🏆 Result**
@@ -216,21 +304,14 @@ after setup
           ▼                       ▼                    ▼
    ┌─────────────┐      ┌─────────────────┐   ┌──────────────┐
    │  Scraper    │      │  LLM Orchestr.  │   │  Submitter   │
-   │  Playwright │      │                 │   │  Playwright  │
-   │  Job Sites  │─────►│ OpenAI  Gemini  │──►│  Auto-fill   │
-   └─────────────┘      │      Anthropic  │   │  Auto-submit │
-                        └────────┬────────┘   └──────────────┘
+   │  Playwright │      │ OpenAI  Gemini  │   │  Playwright  │
+   │  Job Sites  │─────►│    Anthropic    │──►│  Auto-fill   │
+   └─────────────┘      └────────┬────────┘   └──────────────┘
                                  │
                     ┌────────────▼────────────┐
                     │    Prompt Chain Engine   │
-                    │  JD Analysis → Skills   │
-                    │  Gap Detection → Tailor │
-                    │  Resume → Cover Letter  │
                     └─────────────────────────┘
 ```
-
-**⚡ Why this is hard**
-> Coordinating 3 different LLM providers, managing browser state across dynamic job portals, and ensuring resume tailoring stays factually accurate — all without human intervention.
 
 **🛠️ Stack**
 
@@ -238,8 +319,6 @@ after setup
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](.)
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](.)
 [![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)](.)
-[![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat-square&logoColor=white)](.)
-[![Gemini](https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=google&logoColor=white)](.)
 [![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)](.)
 
 </td>
@@ -251,8 +330,6 @@ after setup
 ### 🌡️ HeatShield AI — Safety-Critical ML Prediction System
 
 [![Repo](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gowthammayakannan/heatshield-ai)
-![Complexity](https://img.shields.io/badge/Complexity-⚡_Medium-a5b4fc?style=for-the-badge&labelColor=1e1b4b)
-![Type](https://img.shields.io/badge/Type-ML_System-6366f1?style=for-the-badge&labelColor=1e1b4b)
 ![Accuracy](https://img.shields.io/badge/Accuracy-88.1%25-22c55e?style=for-the-badge&labelColor=14532d)
 ![Recall](https://img.shields.io/badge/Recall-98%25-22c55e?style=for-the-badge&labelColor=14532d)
 
@@ -263,13 +340,10 @@ after setup
 **🔴 Problem**
 ```
 Heat stroke kills.
-Early prediction is
-hard — symptoms are
-subtle until critical.
-
-Standard models chase
-accuracy, ignoring
-false negatives that
+Standard models
+chase accuracy,
+missing false
+negatives that
 cost lives.
 ```
 
@@ -280,21 +354,14 @@ optimized for recall:
 · Random Forest
 · XGBoost
 · Weighted ensemble
-
-Prioritize catching
-every at-risk case
-even at cost of
-some false alarms.
 ```
 
 **🏆 Result**
 ```
 88.1% accuracy
 98% recall ← key
-
 Only 2% of real
-heat stroke cases
-missed by model
+cases missed
 ```
 
 </td>
@@ -302,44 +369,27 @@ missed by model
 
 **🏗️ Architecture**
 ```
-  Raw Data (climate + health signals)
-          │
-          ▼
-  ┌───────────────────────────────┐
-  │       Feature Engineering     │
-  │  temp · humidity · age · BMI  │
-  └──────────────┬────────────────┘
-                 │
-       ┌─────────┴──────────┐
-       ▼                    ▼
- ┌───────────┐        ┌───────────┐
- │  Random   │        │  XGBoost  │
- │  Forest   │        │ Classifier│
- └─────┬─────┘        └─────┬─────┘
-       └──────────┬──────────┘
-                  ▼
-         ┌─────────────────┐
-         │ Weighted Ensemble│
-         │ Recall-Optimized │
-         └────────┬──────────┘
-                  │
-       ┌──────────┴──────────┐
-       ▼                     ▼
-  Flask REST API         React Frontend
-  /predict endpoint      Risk Dashboard
+  Raw Data → Feature Engineering
+                    │
+       ┌────────────┴────────────┐
+       ▼                         ▼
+  Random Forest             XGBoost
+       └────────────┬────────────┘
+                    ▼
+           Weighted Ensemble
+           (Recall-Optimized)
+                    │
+       ┌────────────┴────────────┐
+       ▼                         ▼
+  Flask REST API          React Frontend
 ```
-
-**⚡ Why this is hard**
-> Optimizing for recall means deliberately accepting more false positives — a conscious engineering tradeoff requiring domain understanding beyond just maximizing accuracy metrics.
 
 **🛠️ Stack**
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
-[![ScikitLearn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](.)
-[![XGBoost](https://img.shields.io/badge/XGBoost-189AB4?style=flat-square&logoColor=white)](.)
+[![ScikitLearn](https://img.shields.io/badge/Sklearn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](.)
 [![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)](.)
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](.)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](.)
 
 </td>
 </tr>
@@ -350,186 +400,18 @@ missed by model
 ### 💻 CodeStream — Real-Time Collaborative Code Editor
 
 [![Repo](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gowthammayakannan/code-stream)
-![Complexity](https://img.shields.io/badge/Complexity-⚡_Medium-a5b4fc?style=for-the-badge&labelColor=1e1b4b)
-![Type](https://img.shields.io/badge/Type-Full_Stack-6366f1?style=for-the-badge&labelColor=1e1b4b)
 
-<table>
-<tr>
-<td width="30%" valign="top">
-
-**🔴 Problem**
-```
-Remote pair programming
-needs a shared editor
-that syncs instantly —
-no lag, no conflicts,
-no setup friction.
-```
-
-**🟢 Solution**
-```
-Browser-based IDE:
-· Live cursor sync
-· Conflict-free edits
-· JWT auth sessions
-· Syntax highlight
-· Persistent rooms
-```
-
-**🏆 Result**
-```
-Multi-user real-time
-editing with:
-· <100ms sync latency
-· Secure auth
-· Session persistence
-```
-
-</td>
-<td width="70%" valign="top">
-
-**🏗️ Architecture**
-```
-  User A (Browser)     User B (Browser)
-       │                     │
-       ▼                     ▼
-  React + Monaco        React + Monaco
-       │                     │
-       └──────────┬──────────┘
-                  ▼
-         ┌─────────────────┐
-         │   Socket.IO     │
-         │  cursor-move    │
-         │  code-change    │
-         │  user-join/left │
-         └────────┬────────┘
-                  ▼
-         ┌─────────────────┐
-         │  Node.js + JWT  │
-         │  Auth middleware│
-         └────────┬────────┘
-                  ▼
-         ┌─────────────────┐
-         │    MongoDB      │
-         │  Sessions·Rooms │
-         └─────────────────┘
-```
-
-**⚡ Why this is hard**
-> Real-time multi-user state sync requires careful event ordering — two users editing the same line simultaneously must resolve without data loss. JWT auth across WebSocket upgrades adds another layer of complexity.
-
-**🛠️ Stack**
+Multi-user live coding with cursor sync, JWT auth, and persistent sessions via Socket.IO.
 
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](.)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](.)
 [![NodeJS](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)](.)
 [![SocketIO](https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white)](.)
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](.)
-[![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)](.)
-
-</td>
-</tr>
-</table>
-
----
-
-### 🔍 RAG Pipeline — Enterprise Document QA *(Active Build)*
-
-![Status](https://img.shields.io/badge/Status-🚧_Building-f59e0b?style=for-the-badge&labelColor=451a03)
-![Complexity](https://img.shields.io/badge/Complexity-⚡⚡_Very_High-a5b4fc?style=for-the-badge&labelColor=1e1b4b)
-![Type](https://img.shields.io/badge/Type-AI_+_Data_Engineering-6366f1?style=for-the-badge&labelColor=1e1b4b)
-
-<table>
-<tr>
-<td width="30%" valign="top">
-
-**🔴 Problem**
-```
-Law firms have 1000s
-of case documents.
-Lawyers waste hours
-searching precedents
-manually.
-
-Simple keyword search
-misses semantic
-meaning. LLMs alone
-hallucinate without
-grounding.
-```
-
-**🟢 Solution**
-```
-Hybrid RAG system:
-· Semantic search
-  (dense embeddings)
-· BM25 keyword search
-· Reciprocal rank
-  fusion reranking
-· Grounded LLM answer
-  with source citations
-```
-
-**🏆 Target**
-```
-< 2s query response
-Source-cited answers
-Multi-tenant isolation
-RAGAS eval score > 0.8
-```
-
-</td>
-<td width="70%" valign="top">
-
-**🏗️ Architecture**
-```
-  ┌─────────────────────────────────────────┐
-  │            INGESTION PIPELINE            │
-  │  PDF → PyMuPDF → Chunks → Embeddings    │
-  │              ↓           ↓              │
-  │         ChromaDB      BM25 Index        │
-  └─────────────────────────────────────────┘
-                    │
-  ┌─────────────────▼───────────────────────┐
-  │             QUERY PIPELINE               │
-  │  User Query                              │
-  │      ├──► Dense Search (ChromaDB)        │
-  │      └──► Sparse Search (BM25)           │
-  │                  │                       │
-  │      ┌───────────▼──────────┐            │
-  │      │  RRF Reranker        │            │
-  │      └───────────┬──────────┘            │
-  │                  ▼                       │
-  │         OpenAI GPT-4o-mini               │
-  │         Grounded generation              │
-  │                  ▼                       │
-  │     Answer + Source Citations            │
-  └─────────────────────────────────────────┘
-```
-
-**⚡ Why this is hard**
-> Pure semantic search fails on exact legal terms. Pure BM25 misses paraphrased queries. Fusing both with learned reranking, while maintaining per-tenant data isolation and evaluating with RAGAS — that's production-grade AI engineering.
-
-**🛠️ Stack**
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](.)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](.)
-[![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square)](.)
-[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)](.)
-[![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)](.)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](.)
-
-</td>
-</tr>
-</table>
 
 ---
 
 ## 🛠️ Tech Stack
-
-> *How my tools connect — not just what I know, but how I use them together.*
-
-<br/>
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -537,51 +419,27 @@ RAGAS eval score > 0.8
 ├──────────────────┬──────────────────────────────────────────────────┤
 │   LANGUAGES      │  Python · JavaScript · TypeScript · SQL          │
 ├──────────────────┼──────────────────────────────────────────────────┤
-│   AI / LLM       │  OpenAI API · Anthropic · Gemini · LangChain     │
+│   AI / LLM       │  Groq · OpenAI · Anthropic · Gemini · LangChain  │
 │                  │  Prompt Engineering · Multi-LLM Orchestration     │
 ├──────────────────┼──────────────────────────────────────────────────┤
 │   ML / DATA SCI  │  Scikit-Learn · XGBoost · TensorFlow · NLP       │
-│                  │  Feature Engineering · Model Evaluation · RAGAS   │
+│                  │  Feature Engineering · Model Evaluation           │
 ├──────────────────┼──────────────────────────────────────────────────┤
-│   RAG / VECTOR   │  ChromaDB · sentence-transformers · BM25          │
-│                  │  Hybrid Search · Reranking · HuggingFace          │
+│   RAG / VECTOR   │  ChromaDB · sentence-transformers · BM25 · RRF   │
 ├──────────────────┼──────────────────────────────────────────────────┤
 │   WEB / BACKEND  │  FastAPI · Flask · Node.js · Socket.IO · JWT      │
 ├──────────────────┼──────────────────────────────────────────────────┤
-│   FRONTEND       │  React · TypeScript · HTML/CSS                    │
+│   FRONTEND       │  React · TypeScript · Framer Motion · Tailwind    │
 ├──────────────────┼──────────────────────────────────────────────────┤
-│   DATABASES      │  MongoDB · PostgreSQL · ChromaDB                  │
+│   DATABASES      │  MongoDB · PostgreSQL · SQLite · ChromaDB         │
 ├──────────────────┼──────────────────────────────────────────────────┤
-│   DEVOPS / TOOLS │  Docker · Git · GitHub · Playwright · Postman     │
+│   DEVOPS         │  Docker · Git · Render · Vercel · GitHub Actions  │
 └──────────────────┴──────────────────────────────────────────────────┘
 ```
 
 <div align="center">
 
-**Languages**
-
-[![skillicons](https://skillicons.dev/icons?i=python,js,ts,html,css&theme=dark)](https://skillicons.dev)
-
-**AI · ML · Data Science**
-
-[![skillicons](https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark)](https://skillicons.dev)
-&nbsp;
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![ScikitLearn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge)
-
-**Web · Backend · Frontend**
-
-[![skillicons](https://skillicons.dev/icons?i=fastapi,flask,react,nodejs&theme=dark)](https://skillicons.dev)
-&nbsp;
-![SocketIO](https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-
-**Databases · DevOps**
-
-[![skillicons](https://skillicons.dev/icons?i=mongodb,postgres,docker,git,linux&theme=dark)](https://skillicons.dev)
+[![skillicons](https://skillicons.dev/icons?i=python,js,ts,react,fastapi,nodejs,mongodb,docker,git&theme=dark)](https://skillicons.dev)
 
 </div>
 
@@ -600,41 +458,6 @@ RAGAS eval score > 0.8
 [![GitHub Streak](https://streak-stats.demolab.com?user=gowthammayakannan&theme=midnight-purple&hide_border=true&date_format=j%20M%5B%20Y%5D&ring=a5b4fc&fire=a5b4fc&currStreakLabel=a5b4fc&sideLabels=a5b4fc&currStreakNum=ffffff&sideNums=ffffff)](https://git.io/streak-stats)
 
 </div>
-
-<br/>
-
-<div align="center">
-
-```
-📌 What these stats say about me
-──────────────────────────────────────────────────────────────
-  🐍 Python dominant    →  AI-first developer, not just web
-  � 59+ commits        →  Every project pushed, not just local
-  🔥 Active streak      →  Building consistently, not in bursts
-  🏆 Rank percentile    →  Measured against GitHub's global base
-──────────────────────────────────────────────────────────────
-```
-
-</div>
-
-<br/>
-
-<div align="center">
-
-### 🏅 Profile Highlights
-
-| Metric | Value |
-|:-------|:------|
-| 💻 Total Commits | 59+ (Jul 2023 → Present) |
-| 🔀 Pull Requests | 3 merged |
-| � Repositories Contributed | 2 |
-| 🔥 Longest Streak | 3 days (Jun 2025) |
-| 📅 GitHub Member Since | July 2021 |
-| 🌐 Public Repos | Growing |
-
-</div>
-
-<br/>
 
 <div align="center">
 
@@ -656,7 +479,6 @@ RAGAS eval score > 0.8
 
 <table>
 <tr>
-
 <td align="center" width="25%" valign="top">
 
 ### 🟡 LeetCode
@@ -670,12 +492,7 @@ Solved    27
 🔴 Hard    8
 ```
 
-> *8 Hard problems —*
-> *I don't avoid*
-> *difficult problems*
-
 </td>
-
 <td align="center" width="25%" valign="top">
 
 ### 🟢 HackerRank
@@ -684,16 +501,9 @@ Solved    27
 ```
 🐍 Python      89/100
 🧩 Prob Solving  Badge
-──────────────────────
-Score tier:  Top 15%
 ```
 
-> *89/100 Python —*
-> *not just familiar,*
-> *actually proficient*
-
 </td>
-
 <td align="center" width="25%" valign="top">
 
 ### 🌐 CCNA
@@ -702,64 +512,28 @@ Score tier:  Top 15%
 ```
 Cisco Certified
 Network Associate
-──────────────────
-Networking · Routing
-Switching · TCP/IP
-Subnetting · VLANs
 ```
 
-> *Rare for AI devs —*
-> *understands the*
-> *infra under the code*
-
 </td>
-
 <td align="center" width="25%" valign="top">
 
 ### 🤖 AI Programmer
-![NCVET](https://img.shields.io/badge/NCVET_Govt_of_India-FF6B35?style=for-the-badge&logoColor=white)
+![NCVET](https://img.shields.io/badge/NCVET_Govt_India-FF6B35?style=for-the-badge&logoColor=white)
 
 ```
-TN Skill Corporation
-300 hours · Jan 2026
-─────────────────────
-Python · ML · DL
-NLP · AI Systems
-ID: DP2025-M203568
+TN Skill · 300hrs
+Jan 2026 · NCVET
 ```
-
-> *Govt certified —*
-> *verified 300hrs,*
-> *not a weekend badge*
 
 </td>
-
 </tr>
 </table>
-
-</div>
-
-<div align="center">
-
-```
-💡 What these credentials signal together
-────────────────────────────────────────────────────────────────
-  LeetCode Hard ×8    →  Comfortable with algorithmic complexity
-  HackerRank 89/100   →  Python proficiency — not just syntax
-  CCNA Cisco          →  System-level thinking — network to app
-  NCVET 300hrs        →  Structured AI training — not just tutorials
-────────────────────────────────────────────────────────────────
-  Combined signal: engineer who thinks at every layer of the stack
-────────────────────────────────────────────────────────────────
-```
 
 </div>
 
 ---
 
 ## 🗺️ My Engineering Journey
-
-> *Where I've been, where I am, where I'm going.*
 
 <div align="center">
 
@@ -769,31 +543,19 @@ ID: DP2025-M203568
 
 ### ✅ Done
 ```
-2021 – 2025
+2021 – 2026
 ────────────────────────
 ☑  B.Tech AI & Data Sci
-   CGPA 7.68 · Coimbatore
-
-☑  CCNA
-   Cisco Network Associate
-
+☑  CCNA · Cisco
 ☑  NCVET AI Programmer
-   300hrs · Govt of India
-
 ☑  Exposys Internship
-   FastAPI · React · MongoDB
-
-☑  JobHunter
-   Multi-LLM agent pipeline
-
-☑  HeatShield AI
-   88.1% acc · 98% recall
-
-☑  CodeStream
-   Real-time collab editor
-
-☑  Joined Lytx · Feb 2026
-   AI Data Quality
+☑  JobHunter (AI Agent)
+☑  HeatShield AI (98% recall)
+☑  CodeStream (real-time)
+☑  Lytx · Feb 2026
+☑  Lexra — LIVE 🚀
+   RAG + Hybrid Search
+   Vercel + Render
 ────────────────────────
   Foundation is solid ✅
 ```
@@ -805,10 +567,6 @@ ID: DP2025-M203568
 ```
 2026 — Now
 ────────────────────────
-◉  RAG Pipeline
-   ChromaDB · BM25 · RAGAS
-   [ ████████░░ ] 80%
-
 ◉  Job Applications
    AI/SDE/DS · Bengaluru
    [ █████░░░░░ ] 50%
@@ -819,7 +577,7 @@ ID: DP2025-M203568
 
 ◉  GitHub presence
    Projects · Profile
-   [ █████████░ ] 90%
+   [ ██████████ ] 100%
 ────────────────────────
   Building momentum 🔄
 ```
@@ -829,7 +587,7 @@ ID: DP2025-M203568
 
 ### 🎯 Next
 ```
-2026 Q3 – Q4
+2026 Q4
 ────────────────────────
 ○  Land AI/ML or SDE role
    Bengaluru · Full-time
@@ -840,14 +598,8 @@ ID: DP2025-M203568
 ○  Open Source contribution
    HuggingFace / LangChain
 
-○  System Design prep
-   Distributed AI systems
-
 ○  LeetCode 100+
    Graph · DP · Trees
-
-○  Deploy RAG to production
-   Public demo · Case study
 ────────────────────────
   Next chapter loading 🎯
 ```
@@ -855,24 +607,6 @@ ID: DP2025-M203568
 </td>
 </tr>
 </table>
-
-</div>
-
-<div align="center">
-
-```
-                    THE BIG PICTURE
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Student          →    Builder         →    Engineer
-  (2021–2025)           (2025–2026)           (2026→)
-
-  Learn theory     →    Ship projects   →    Solve at scale
-  Get certified    →    Build pipeline  →    Lead with AI
-  Understand data  →    Measure results →    Drive decisions
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Currently at: Builder → Engineer transition 🚀
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
 
 </div>
 
@@ -886,70 +620,26 @@ ID: DP2025-M203568
 ╔═══════════════════════════════════════════════════════════════╗
 ║                    🟢 OPEN TO WORK                            ║
 ╠═══════════════════════════════════════════════════════════════╣
-║                                                               ║
 ║  Looking for:                                                 ║
-║  ├── 🤖  AI Engineer          (LLMs · RAG · Agents)          ║
-║  ├── 🛠️  Software Engineer    (Python · React · FastAPI)      ║
-║  └── 📊  Data Scientist       (ML · Feature Eng · EDA)       ║
+║  ├── 🤖  AI Engineer       (LLMs · RAG · Agents)             ║
+║  ├── 🛠️  Software Engineer  (Python · React · FastAPI)        ║
+║  └── 📊  Data Scientist    (ML · Feature Eng · EDA)          ║
 ║                                                               ║
-║  What I bring:                                                ║
-║  ├── Multi-LLM systems that actually ship                     ║
-║  ├── ML models optimized for real-world metrics               ║
-║  ├── Full stack from database to UI                           ║
-║  └── Engineering mindset — problem first, tools second        ║
-║                                                               ║
-║  Location:  Bengaluru, India 🇮🇳  (on-site / hybrid / remote) ║
-║  Notice:    30 days                                           ║
-║  Status:    Actively interviewing                             ║
-║                                                               ║
+║  Location: Bengaluru 🇮🇳 · Notice: 30 days                   ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
 
-<br/>
-
-<table>
-<tr>
-<td align="center" width="25%">
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/gowtham-m-1a9177248)
-
-*Let's connect*
-
-</td>
-<td align="center" width="25%">
-
+&nbsp;
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF5722?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://gowthammayakannan.github.io/3d_portfolio)
-
-*See my work*
-
-</td>
-<td align="center" width="25%">
-
+&nbsp;
+[![Lexra](https://img.shields.io/badge/Lexra-Live_Demo-22c55e?style=for-the-badge)](https://lexra-mg3e4579l-gowthams-projects-2d279628.vercel.app)
+&nbsp;
 [![Gmail](https://img.shields.io/badge/Email-Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gowthamkeerthi2006@gmail.com)
 
-*gowthamkeerthi2006*
-*@gmail.com*
-
-</td>
-<td align="center" width="25%">
-
-[![Resume](https://img.shields.io/badge/Resume-Download-6366f1?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/gowthammayakannan/gowthammayakannan/raw/main/Gowtham_Resume.pdf)
-
-*PDF Resume*
-
-</td>
-</tr>
-</table>
-
 <br/>
 
-```
-If you're building something interesting with AI —
-or looking for someone who ships, not just talks —
-                  let's talk. 🚀
-```
-
-<br/>
+*"Build things that solve real problems — everything else follows."*
 
 ![](https://img.shields.io/badge/Made_with-Curiosity_%26_Coffee-a5b4fc?style=for-the-badge&labelColor=1e1b4b)
 &nbsp;
@@ -958,7 +648,5 @@ or looking for someone who ships, not just talks —
 ![](https://img.shields.io/badge/Status-Open_to_Work_🟢-a5b4fc?style=for-the-badge&labelColor=1e1b4b)
 
 </div>
-
-<br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0,2,2,5,30&height=120&section=footer&animation=fadeIn&reversal=true"/>
